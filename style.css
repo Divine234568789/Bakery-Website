@@ -1,0 +1,371 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.first {
+  background-image: url(/img/croissant.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin: 1rem;
+  height: 100vh;
+}
+
+.logo {
+  margin-right: 5rem;
+  padding-left: 20px;
+}
+
+.nav {
+  background: linear-gradient(transparent, rgb(248, 180, 116));
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 60px;
+}
+
+.st {
+  color: rgb(241, 170, 17);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.firstcontent {
+  margin-top: 15rem;
+  padding-left: 20px;
+}
+
+.firstcontent h2 {
+  font-size: 36px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 0px 10px;
+  padding: 10px 20px;
+  background-color: #d2691e;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+/* Top Products */
+#products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#products2 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.products h2 {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.bread1 {
+  border: solid black;
+  height: 35vh;
+  border-radius: 15px;
+}
+
+#bread1 {
+  display: flex;
+}
+
+.add {
+  margin-left: 20vh;
+  padding-inline: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: rgb(247, 146, 52);
+  color: black;
+  transition: 0.3s;
+}
+
+/* Discount Banner */
+#discount {
+  background-image: url(/img/discount.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  height: 50vh;
+}
+
+.discount {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discount h4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  color: black;
+}
+
+.btn1 {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  color: black;
+  background-color: #d2691e;
+  transition: 0.3s;
+}
+
+.butn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Explore More */
+.explore h2 {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.explore ul {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.explore ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.explore ul li a:hover {
+  text-decoration: underline 3px;
+  color: #d2691e;
+}
+
+.line {
+  border: 2px solid black;
+  margin: 1rem 3rem;
+}
+
+.sugar {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.pastry {
+  height: 35vh;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+/* About Us */
+#About {
+  background-image: url(/img/About\ Us.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  height: 50vh;
+  border: 2px solid black;
+}
+
+#About h1 {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.btn3 {
+  padding: 10px;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  margin-top: 3rem;
+  border: 2px solid white;
+}
+
+.btn3:hover {
+  background-color: #d2691e;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Featured Treats */
+#features h2 {
+  display: flex;
+  margin: 3rem;
+  justify-content: center;
+}
+
+.pastry2 {
+  height: 35vh;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.features {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Footer Section */
+#Footer {
+  margin: 5rem 1rem 1rem;
+  border-radius: 15px;
+  background-image: url(/img/footer.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  border: 2px solid black;
+}
+
+.socials {
+  background: linear-gradient(transparent, rgb(211, 155, 106));
+  display: flex;
+  align-items: center;
+  gap: 50rem;
+}
+
+.initials {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.flogo {
+  height: 20vh;
+  margin-left: 3rem;
+}
+
+.media {
+  height: 20vh;
+}
+
+.Au {
+  font-weight: bolder;
+  color: white;
+}
+
+.Au h1 {
+  color: #d2691e;
+}
+
+.Au p {
+  margin-top: 15px;
+}
+
+.Ex {
+  font-weight: bolder;
+  color: white;
+}
+
+.Ex h1 {
+  color: #d2691e;
+}
+
+.Ex a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+}
+
+.Ex a:hover {
+  color: #d2691e;
+  transition: 0.2s;
+}
+
+.Re {
+  font-weight: bolder;
+  color: white;
+}
+
+.Re h1 {
+  color: #d2691e;
+}
+
+.ck {
+  height: 9vh;
+  border: 2px solid white;
+}
+
+.ck1 {
+    margin-top: 15px;
+}
+
+.cp{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: white;
+}
