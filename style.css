@@ -8,7 +8,7 @@
 
 /* Header */
 .first {
-  background-image: url(/img/croissant.jpg);
+  background-image: url(./img/croissant.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -127,7 +127,7 @@ nav ul li {
 
 /* Discount Banner */
 #discount {
-  background-image: url(/img/discount.jpg);
+  background-image: url(./img/discount.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -220,7 +220,7 @@ nav ul li {
 
 /* About Us */
 #About {
-  background-image: url(/img/About\ Us.jpg);
+  background-image: url(./img/About\ Us.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -360,12 +360,12 @@ nav ul li {
 }
 
 .ck1 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
-.cp{
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    color: white;
+.cp {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  color: white;
 }
